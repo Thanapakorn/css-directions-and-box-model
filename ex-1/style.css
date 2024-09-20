@@ -1,1 +1,23 @@
 /* Start coding here */
+header {
+  background-color: darkseagreen;
+  padding: 15px;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  gap: 15px;
+}
+section {
+  border: 2px solid black;
+  padding: 15px;
+  width: 500px;
+  margin: 20px;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
